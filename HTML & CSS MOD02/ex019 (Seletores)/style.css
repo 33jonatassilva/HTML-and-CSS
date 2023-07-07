@@ -37,6 +37,10 @@ h1 {
     font-style: italic;
 }
 
+.destaque {
+    background-color: rgba(224, 224, 31, 0.689);
+}
+
 h2 {
     color: #3c805e;
 }
