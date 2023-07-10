@@ -2,22 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+
 nav {
-    background-color: rgb(102, 181, 141);
-    border-radius: 10px;
+    background-color: rgba(88, 32, 161, 0.516);
+    height: 130px;
+    border-radius: 50px;
 }
-
-
 
 
 div {
     display: inline-block;
-    background-image: linear-gradient(to right, rgb(187, 173, 173), #027373);
-    border-radius: 10px;
 }
 
 #div01 {
     margin-right: 50px;
+    margin-left: 50px;
     border-radius: 50px;
     height: 30px;
 }
@@ -51,14 +50,34 @@ div {
 }
 
 a {
-    font-size: small;
+    font-size: 1.5em;
     text-decoration: none;
     color: black;
     font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
+.pmenu {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pmenu:hover {
+    color: blue;
+}
 
 body {
     background-image: linear-gradient( to right, aqua, black);
 }
 
+#apresentacao {
+    text-align: justify;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+article > p {
+    margin: 30px;
+    padding: 10px;
+}
