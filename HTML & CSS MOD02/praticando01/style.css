@@ -14,7 +14,7 @@ div {
     display: inline-block;
 }
 
-#div01 {
+#div01 { 
     margin-right: 50px;
     margin-left: 50px;
     border-radius: 50px;
@@ -64,6 +64,9 @@ a {
 
 .pmenu:hover {
     color: blue;
+    display: inline-block;
+    height: 100px;
+    
 }
 
 body {

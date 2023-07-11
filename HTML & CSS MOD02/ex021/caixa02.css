@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 
 body {
@@ -13,16 +13,25 @@ header {
     border-radius: 5px;
 }
 
-
+nav {
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 5px 4px 1px rgba(0, 0, 0, 0.753);
+}
 
 nav > a {
-    text-decoration: none;
+    background-color: gray;
     color: white;
-    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
 }
 
 nav > a:hover {
+    
+    background-color: black;
     text-decoration: solid;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -67,11 +76,7 @@ a {
     color: white;
     display: inline-block;
     text-align: center;
-    
     margin: auto;
-    border-radius: 10px;
-    border: 1px;
-    width: 170px;
 }
 
 a:hover {
