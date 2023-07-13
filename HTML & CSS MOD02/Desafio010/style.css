@@ -116,6 +116,10 @@ img {
     margin: auto;
 }
 
+#firsta {
+    margin-left: -20px;
+}
+
 header a{
     text-decoration: none;
     color: white;
@@ -130,4 +134,21 @@ header a:hover {
 
 ul {
     columns: 2;
+}
+
+div.video {
+    background-color: green;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -30px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
