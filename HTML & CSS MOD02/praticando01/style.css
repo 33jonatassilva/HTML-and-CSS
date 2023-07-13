@@ -2,58 +2,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+:root {
+    --fonte-padrao-titulos: 'Oswald', sans-serif;
+}
 
 nav {
-    background-color: rgba(88, 32, 161, 0.516);
-    height: 130px;
-    border-radius: 50px;
+    background-color: rgb(21, 10, 35);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+header {
+    background-color: rgba(74, 13, 154, 0.687);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin: -50px -10px -43px -10px;
+    padding-top: 50px;
 }
 
 
 div {
     display: inline-block;
-}
-
-#div01 { 
-    margin-right: 50px;
-    margin-left: 50px;
-    border-radius: 50px;
-    height: 30px;
-}
-
-#div02 {
-    padding: 10px;
-    border-radius: 30px;
-    margin-right: 50px;
-    height: 30px
-}
-
-#div03 {
-    padding: 10px;
-    border-radius: 30px;
-    margin-right: 50px;
-    height: 30px
-}
-
-#div04 {
-    padding: 10px;
-    border-radius: 30px;
-    margin-right: 50px;
-    height: 30px
-}
-
-#div05 {
-    padding: 10px;
-    border-radius: 30px;
-    margin-right: 50px;
-    height: 30px
+    
 }
 
 a {
     font-size: 1.5em;
     text-decoration: none;
-    color: black;
+    color: rgb(84, 83, 83);
     font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+a:hover {
+    background-color:  rgba(74, 13, 154, 0.687);
+    border-radius: 5px;
+    color: white;
 }
 
 .pmenu {
@@ -75,12 +68,36 @@ body {
 
 #apresentacao {
     text-align: justify;
-    background-color: blueviolet;
-    border-radius: 10px;
-    font-size: 2em;
+    background-color: rgb(189, 149, 227);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0px;
+    font-size: 1.2em;
 }
 
 article > p {
     margin: 30px;
     padding: 10px;
+    margin-top: 0px;
+}
+
+
+section {
+    max-width: 800px;
+    min-width: 320px;
+    padding-top: 10px;
+    margin: auto;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.258);
+}
+
+img {
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: var(--fonte-padrao-titulos);
 }
