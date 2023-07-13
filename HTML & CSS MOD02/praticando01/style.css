@@ -19,7 +19,9 @@ nav {
 
 
 header {
+    background-image: linear-gradient( to right, aqua, black);
     background-color: rgba(74, 13, 154, 0.687);
+
     text-align: center;
     color: white;
     font-size: 2em;
@@ -63,12 +65,12 @@ a:hover {
 }
 
 body {
-    background-image: linear-gradient( to right, aqua, black);
+   background-color: ;
 }
 
 #apresentacao {
     text-align: justify;
-    background-color: rgb(189, 149, 227);
+    background-color: rgb(255, 255, 255);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: 0px;
@@ -98,6 +100,11 @@ img {
     
 }
 
-h1 {
+h1.text {
     font-family: var(--fonte-padrao-titulos);
+    background-image: linear-gradient(to right, violet, white);
+ 
+    padding-left: 5px;
+    margin-left: 0px;
+    text-indent: 30px;
 }
