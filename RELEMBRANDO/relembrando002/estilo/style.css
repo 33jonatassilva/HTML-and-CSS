@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: rgb(0, 31, 0);
+    background-color: #262626;
     height: 100vh;
 }
 
@@ -27,6 +27,7 @@ body {
 
 header {
     padding: 40px 4%;
+    background-color: #1A1A1A;
 }
 
 header > .interface {
@@ -36,7 +37,7 @@ header > .interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: #D1D3D4;
     text-decoration: none;
 }
 
@@ -44,6 +45,11 @@ header a:hover {
     display: block;
     color: #fff;
     transform: scale(1.05);
+}
+
+#logo a{
+    color: #D1D3D4;
+    transform: scale(1);
 }
 
 header nav ul {
@@ -59,12 +65,60 @@ header .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00ff08;
+    background-color: #DCE359;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 
 header .btn-contato button:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #DCE359;
 }
+
+section article div.article p {
+    border-radius: 50px 50px 0px 0px;
+    padding: 0;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 10em;
+    text-shadow: 0px 0px 8px #1A1A1A;
+}
+
+section article div.article p:hover {
+    transform: scale(1.05);
+}
+
+
+.descrição {
+    font-size: 2em;
+    text-align: center;
+    border-radius: 0px 0px 50px 50px;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+p.psobre {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2em;
+    color: #DCE359;
+}
+
+.cursoemvideo {
+    margin-top: 5%;
+    text-align: center;
+}
+
+section li{
+    list-style: none;
+}
+
+section ul li img {
+    width: 5%;
+    height: 5%;
+    padding-left: 50px;
+}
+
